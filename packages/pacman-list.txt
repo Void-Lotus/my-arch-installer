@@ -200,3 +200,5 @@ xfsprogs
 xl2tpd
 yad
 yt-dlp
+zen-browser-bin
+
