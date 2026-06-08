@@ -9,7 +9,6 @@ qtilitools
 dmg2img
 ttf-rubik-vf
 ttf-victor-mono
-google-chrome
 hyprswitch
 sddm-conf-git
 wallust
