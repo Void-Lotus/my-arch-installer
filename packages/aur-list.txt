@@ -4,7 +4,6 @@ app2unit
 gtk-engine-murrine
 libcava
 qtilitools
-dmg2img
 ttf-rubik-vf
 ttf-victor-mono
 hyprswitch
