@@ -1,4 +1,3 @@
-antigravity-cli
 python-materialyoucolor
 simple-sddm-theme-2-git
 app2unit
