@@ -1,7 +1,6 @@
 antigravity-cli
 python-materialyoucolor
 simple-sddm-theme-2-git
-the-rock
 app2unit
 gtk-engine-murrine
 libcava
