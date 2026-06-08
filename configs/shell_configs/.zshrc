@@ -1,3 +1,6 @@
+# Mute console output warnings during Powerlevel10k instant prompt initialization
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
