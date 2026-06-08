@@ -21,7 +21,6 @@ btrfs-assistant
 btrfs-progs
 cantarell-fonts
 cava
-ccid
 cliphist
 cryptsetup
 cups
@@ -70,7 +69,6 @@ kvantum
 less
 lib32-mesa
 lib32-opencl-mesa
-lib32-pcsclite
 libdvdcss
 libgsf
 libopenraw
@@ -116,15 +114,12 @@ nvtop
 nwg-displays
 nwg-look
 opencl-mesa
-opensc
 openssh
 os-prober
 otf-font-awesome
 pacman-contrib
 pamixer
 pavucontrol
-pcsc-perl
-pcsc-tools
 perl
 pipewire-alsa
 pipewire-pulse
