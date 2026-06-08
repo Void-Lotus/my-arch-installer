@@ -42,3 +42,25 @@ if [ -d configs/wallpapers ]; then
     mkdir -p "$HOME/Pictures/wallpapers"
     cp -r configs/wallpapers/* "$HOME/Pictures/wallpapers/"
 fi
+
+# Replace {{HOME}} placeholder with the actual home directory in deployed files
+echo "Replacing {{HOME}} placeholders in deployed configurations..."
+find "$HOME/.config" -type f 2>/dev/null | while read -r file; do
+    if grep -qI '{{HOME}}' "$file" 2>/dev/null; then
+        sed -i "s|{{HOME}}|$HOME|g" "$file"
+    fi
+done
+
+if [ -d configs/shell_configs ]; then
+    for item in configs/shell_configs/*; do
+        [ -e "$item" ] || continue
+        name=$(basename "$item")
+        target="$HOME/$name"
+        if [ -f "$target" ]; then
+            if grep -qI '{{HOME}}' "$target" 2>/dev/null; then
+                sed -i "s|{{HOME}}|$HOME|g" "$target"
+            fi
+        fi
+    done
+fi
+

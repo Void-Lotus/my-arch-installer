@@ -388,7 +388,7 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/voidlotus/Pictures/Void lotus pfp.jpg",
+        "avatarImage": "{{HOME}}/Pictures/Void lotus pfp.jpg",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "custom",
@@ -722,7 +722,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/voidlotus/Pictures/wallpapers",
+        "directory": "{{HOME}}/Pictures/wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
