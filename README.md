@@ -8,8 +8,8 @@ On a fresh Arch Linux or Arch-based distro installation, open a terminal and run
 
 1. **Clone this repository:**
    ```bash
-   git clone <your-github-repo-url>.git
-   cd <repo-name>
+   git clone https://github.com/Void-Lotus/my-arch-installer.git
+   cd my-arch-installer
    ```
 
 2. **Run the installer script:**
