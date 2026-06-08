@@ -1,0 +1,15 @@
+gtk-engine-murrine
+libcava
+python-materialyoucolor
+app2unit
+dmg2img
+ttf-rubik-vf
+hyprswitch
+qtilitools
+sddm-conf-git
+simple-sddm-theme-2-git
+google-chrome
+the-rock
+ttf-victor-mono
+wallust
+antigravity-cli
