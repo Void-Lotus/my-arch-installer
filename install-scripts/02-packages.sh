@@ -23,3 +23,10 @@ fi
 
 echo "Installing official packages..."
 sudo pacman -S --needed --noconfirm "${PACKAGES[@]}"
+
+# Enable PCSC daemon socket for CAC/smart card readers if ccid is installed
+if pacman -Qq ccid &>/dev/null; then
+    echo "Enabling pcscd.socket for CAC/smart card readers..."
+    sudo systemctl enable --now pcscd.socket
+fi
+
